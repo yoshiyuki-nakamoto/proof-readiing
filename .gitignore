@@ -1,0 +1,11 @@
+# vim
+[._]*.s[a-w][a-z]
+[._]s[a-w][a-z]
+
+# Mac
+.DS_Store
+Thumbs.db
+
+# Python
+__pycache__
+*.pyc
