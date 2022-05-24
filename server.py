@@ -1,5 +1,5 @@
 from flask import Flask, render_template, request, jsonify
-from proofreading import proofreading
+from proofreading import Proofreading
 
 app = Flask(__name__)
 pr = Proofreading()
