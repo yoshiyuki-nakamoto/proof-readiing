@@ -6,7 +6,6 @@ class Proofreading:
     """
     文書構成を実行するクラス
     """
-
     def __init__(self, rule_file="change.csv"):
         self._change_rule_dic = self._load_change_rule(rule_file)
         self._tokenizer = Tokenizer()
